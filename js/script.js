@@ -29,7 +29,7 @@ var updateClock = function()
   messageText = "Despierta, despierta, es hora de levantarse!";
 }
 
-  else if (time <= noon)
+  else if (time < noon)
 {
   image = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat5.jpg";
   messageText = "Buenos d\xEDas!";
